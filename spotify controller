@@ -8,9 +8,9 @@ logging.getLogger('spotipy').setLevel(logging.WARNING)
 logging.getLogger('urllib3').setLevel(logging.WARNING)
 
 
-client_id = '5f1aad0058e646389f08ae2139ec2223'
-client_secret = '9ee9e07779964e798131fbef1c59a454'
-redirect_uri = 'https://3bdelrahman-ashraf.github.io/personal-website/'
+client_id = 'the client id can be found in the spotify developer thingy after creating an app'
+client_secret = 'the client id can be found in the spotify developer thingy after creating an app'
+redirect_uri = 'the client id can be found in the spotify developer thingy after creating an app'
 scope = 'user-modify-playback-state user-read-playback-state user-read-currently-playing'
 scope = 'user-read-playback-state'
 scope = 'user-read-currently-playing'
@@ -20,7 +20,7 @@ sp = Spotify(auth_manager=SpotifyOAuth(
     client_secret=client_secret,
     redirect_uri=redirect_uri,
     scope=scope,
-    cache_path='C:\\Users\\modam\\.cache_spotify'
+    cache_path='C:\\Users\\uruser\\.cache_spotify'
 ))
 
 
